@@ -6,6 +6,7 @@ import {
   Polyline,
   Popup,
   useMapEvents,
+  Polygon,
 } from "react-leaflet";
 import L from "leaflet";
 import "./App.css";
@@ -217,12 +218,12 @@ export default function App() {
         ))}
         {/* Border Markers */}
         {clickedPos && (
-          <Polyline
+          <Polygon
             positions={[
-              [clickedPos.lat + 0.15, clickedPos.lng - 0.15],
-              [clickedPos.lat + 0.15, clickedPos.lng + 0.15],
-              [clickedPos.lat - 0.15, clickedPos.lng + 0.15],
-              [clickedPos.lat - 0.15, clickedPos.lng - 0.15],
+              [clickedPos.lat + 0.015, clickedPos.lng - 0.015],
+              [clickedPos.lat + 0.015, clickedPos.lng + 0.015],
+              [clickedPos.lat - 0.015, clickedPos.lng + 0.015],
+              [clickedPos.lat - 0.015, clickedPos.lng - 0.015],
             ]}
             color="#8f0a0a"
             weight={5}
