@@ -7,6 +7,7 @@ import {
   Popup,
   useMapEvents,
   Polygon,
+  Circle,
 } from "react-leaflet";
 import L from "leaflet";
 import "./App.css";
@@ -216,7 +217,7 @@ export default function App() {
             />
           </span>
         ))}
-        {/* Border Markers */}
+        {/* Rectangle Border Marker */}
         {clickedPos && (
           <Polygon
             positions={[
@@ -226,6 +227,18 @@ export default function App() {
               [clickedPos.lat - 0.015, clickedPos.lng - 0.015],
             ]}
             color="#8f0a0a"
+            weight={5}
+            dashArray="8 8"
+            opacity={0.8}
+          />
+        )}
+
+        {/* Circle Border Marker */}
+        {clickedPos && (
+          <Circle
+            center={[clickedPos.lat, clickedPos.lng]}
+            radius={1665} // Radius in Meters; 0.015 deg of 111km
+            color="rgba(121, 255, 80, 0.33)3"
             weight={5}
             dashArray="8 8"
             opacity={0.8}
