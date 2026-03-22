@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "FitnessPark Wallisellen", "category": "gym" },
+      "geometry": { "type": "Point", "coordinates": [8.5984, 47.4122] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "CrossFit Auzelg", "category": "gym" },
+      "geometry": { "type": "Point", "coordinates": [8.5862, 47.4201] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Body & Soul Studio", "category": "gym" },
+      "geometry": { "type": "Point", "coordinates": [8.5935, 47.4178] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Restaurant Sternen", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5901, 47.4145] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pizzeria Napoli", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5948, 47.4132] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Thai Garden", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5921, 47.4189] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Restaurant Löwen", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5958, 47.4167] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "McDonald's Wallisellen", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5992, 47.4103] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Sushi Garten", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5878, 47.4156] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Kebab Palace", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5863, 47.4138] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Restaurant Hirschen", "category": "restaurant" },
+      "geometry": { "type": "Point", "coordinates": [8.5897, 47.4182] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Café Central", "category": "cafe" },
+      "geometry": { "type": "Point", "coordinates": [8.5912, 47.4162] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Starbucks Glattzentrum", "category": "cafe" },
+      "geometry": { "type": "Point", "coordinates": [8.5977, 47.4109] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Bäckerei Keller", "category": "cafe" },
+      "geometry": { "type": "Point", "coordinates": [8.5889, 47.4174] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Coffee Corner", "category": "cafe" },
+      "geometry": { "type": "Point", "coordinates": [8.5933, 47.4148] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Konditorei Müller", "category": "cafe" },
+      "geometry": { "type": "Point", "coordinates": [8.5946, 47.4155] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Migros Wallisellen", "category": "supermarket" },
+      "geometry": { "type": "Point", "coordinates": [8.5962, 47.4115] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Coop Wallisellen", "category": "supermarket" },
+      "geometry": { "type": "Point", "coordinates": [8.5908, 47.4138] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lidl Wallisellen", "category": "supermarket" },
+      "geometry": { "type": "Point", "coordinates": [8.5944, 47.4091] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Volg Dorf", "category": "supermarket" },
+      "geometry": { "type": "Point", "coordinates": [8.5905, 47.4171] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Apotheke Wallisellen", "category": "pharmacy" },
+      "geometry": { "type": "Point", "coordinates": [8.5903, 47.4155] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Amavita Apotheke", "category": "pharmacy" },
+      "geometry": { "type": "Point", "coordinates": [8.5967, 47.4128] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Dorfpark Wallisellen", "category": "park" },
+      "geometry": { "type": "Point", "coordinates": [8.5920, 47.4170] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Spielplatz Riedbach", "category": "park" },
+      "geometry": { "type": "Point", "coordinates": [8.5855, 47.4195] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Auzelg Grünanlage", "category": "park" },
+      "geometry": { "type": "Point", "coordinates": [8.5934, 47.4082] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "UBS Wallisellen", "category": "bank" },
+      "geometry": { "type": "Point", "coordinates": [8.5907, 47.4149] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Raiffeisenbank Wallisellen", "category": "bank" },
+      "geometry": { "type": "Point", "coordinates": [8.5899, 47.4165] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Hotel Garni Wallisellen", "category": "hotel" },
+      "geometry": { "type": "Point", "coordinates": [8.5912, 47.4234] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "ibis Styles Zürich Messe", "category": "hotel" },
+      "geometry": { "type": "Point", "coordinates": [8.5945, 47.4212] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tennis Club Wallisellen", "category": "sport" },
+      "geometry": { "type": "Point", "coordinates": [8.5878, 47.4208] }
+    }
+  ]
+}
